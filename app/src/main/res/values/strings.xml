@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Kotlin_Udemy_08_Users_SP</string>
+    <string name="sp_first_time">first_time</string>
+    <string name="dialog_tittle">Registro de Usuario</string>
+    <string name="dialog_confirm">Registrar</string>
+    <string name="register_success">Registrado</string>
+    <string name="helper_username">Obligatorio</string>
+    <string name="hint_username">nombre de usuario</string>
+    <string name="sp_username">sp_username</string>
+    <string name="dialog_neutral">Invitado</string>
+</resources>
