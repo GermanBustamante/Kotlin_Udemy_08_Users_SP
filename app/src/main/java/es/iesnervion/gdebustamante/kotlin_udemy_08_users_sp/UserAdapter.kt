@@ -10,7 +10,7 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy
 import es.iesnervion.gdebustamante.kotlin_udemy_08_users_sp.databinding.ItemUserAltBinding
 import es.iesnervion.gdebustamante.kotlin_udemy_08_users_sp.databinding.ItemUserBinding
 
-class UserAdapter(private val users: List<User>, private val listener: OnClickListener) : RecyclerView.Adapter<UserAdapter.ViewHolder>() {
+class UserAdapter(private val users: List<User>, private val listener: MainActivity) : RecyclerView.Adapter<UserAdapter.ViewHolder>() {
 
     private lateinit var context : Context
 

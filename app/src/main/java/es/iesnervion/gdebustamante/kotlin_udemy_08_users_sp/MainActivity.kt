@@ -1,13 +1,11 @@
 package es.iesnervion.gdebustamante.kotlin_udemy_08_users_sp
 
-import android.content.DialogInterface
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.textfield.TextInputEditText
 import es.iesnervion.gdebustamante.kotlin_udemy_08_users_sp.databinding.ActivityMainBinding
@@ -21,7 +19,7 @@ import es.iesnervion.gdebustamante.kotlin_udemy_08_users_sp.databinding.Activity
 //Interfaces (práctica para alimentar, configurar, comunicar un listado)
 //TODO *******************************************************************
 
-class MainActivity : AppCompatActivity(), OnClickListener {
+class MainActivity : AppCompatActivity() {
 
     private lateinit var userAdapter: UserAdapter
     private lateinit var linearLayoutManager: RecyclerView.LayoutManager
